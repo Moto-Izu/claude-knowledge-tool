@@ -2,6 +2,8 @@ name: Claude Assistant
 on:
   issue_comment:
     types: [created]
+  issues:
+    types: [opened]
 
 jobs:
   claude-response:
